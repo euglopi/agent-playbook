@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "context-audit",
+      "description": "Find which instructions load into an agent session, how much space they use, and where they conflict.",
+      "path": "skills/context-audit/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "design-audit",
+      "description": "Review a working interface for accessibility, keyboard use, layout and interaction problems.",
+      "path": "skills/design-audit/SKILL.md",
+      "license": "MIT",
+      "license_file": "skills/design-audit/LICENSE"
+    },
+    {
+      "name": "git-branching-quiz",
+      "description": "Learn branches, worktrees, releases and hotfixes through a short interactive quiz.",
+      "path": "skills/git-branching-quiz/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "loop-audit",
+      "description": "Find bugs, loose ends, stale docs and reusable lessons without changing anything.",
+      "path": "skills/loop-audit/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "loop-run",
+      "description": "Find and fix useful follow-ups within the current task and its permissions.",
+      "path": "skills/loop-run/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "model-effort",
+      "description": "Choose the work method, model, reasoning level and use of helpers from evidence.",
+      "path": "skills/model-effort/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "presentation-rules",
+      "description": "Shape a report, plan or deck around its reader’s goal and approved brand inputs.",
+      "path": "skills/presentation-rules/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "report-rules",
+      "description": "Build readable reports with clear evidence, honest totals and numbers that do not wrap.",
+      "path": "skills/report-rules/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "social-post",
+      "description": "Draft concise posts about a build, its failure, its fix and the lesson it supports.",
+      "path": "skills/social-post/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Find and reproduce the cause of a bug before choosing a fix.",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "license": "MIT",
+      "license_file": "skills/systematic-debugging/LICENSE"
+    },
+    {
+      "name": "task-observer",
+      "description": "Turn recurring workflow problems into specific improvements to skills and rules.",
+      "path": "skills/task-observer/SKILL.md",
+      "license": "CC-BY-4.0",
+      "license_file": "skills/task-observer/LICENSE"
+    },
+    {
+      "name": "worktree-triage",
+      "description": "Work out which local working folders hold unfinished work and which can safely be retired.",
+      "path": "skills/worktree-triage/SKILL.md",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    }
+  ],
+  "guides": [
+    {
+      "path": "guides/model-and-cost-routing.md",
+      "description": "Model and effort controls, delegation and recovery across coding tools."
+    },
+    {
+      "path": "guides/social-publishing.md",
+      "description": "Prepare and verify social posts, account identity, links, media and promotion."
+    },
+    {
+      "path": "guides/social-profile-promotion.md",
+      "description": "Use profile links, featured content and contact tools with evidence and clear permission."
+    },
+    {
+      "path": "guides/social-video-upload-limits.md",
+      "description": "Dated platform video limits, account differences, source links and unresolved conflicts."
+    },
+    {
+      "path": "guides/operating-principles.md",
+      "description": "Shared scope, delivery, permission and evidence rules used by these skill editions."
+    },
+    {
+      "path": "guides/task-brief.md",
+      "description": "An introductory task brief with a worked example."
+    },
+    {
+      "path": "guides/verify-the-result.md",
+      "description": "An introductory guide to choosing evidence that proves a change works."
+    }
+  ],
+  "external_skills": [
+    {
+      "name": "docx",
+      "description": "Read and edit Word documents.",
+      "publisher": "Anthropic",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "license": "Anthropic service terms and additional restrictions",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/docx/LICENSE.txt"
+    },
+    {
+      "name": "pdf",
+      "description": "Read and edit PDFs.",
+      "publisher": "Anthropic",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "license": "Anthropic service terms and additional restrictions",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/pdf/LICENSE.txt"
+    },
+    {
+      "name": "pptx",
+      "description": "Read and edit presentations.",
+      "publisher": "Anthropic",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "license": "Anthropic service terms and additional restrictions",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/pptx/LICENSE.txt"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create and evaluate agent skills.",
+      "publisher": "Anthropic",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/LICENSE.txt"
+    },
+    {
+      "name": "xlsx",
+      "description": "Read and edit spreadsheets.",
+      "publisher": "Anthropic",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "license": "Anthropic service terms and additional restrictions",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/xlsx/LICENSE.txt"
+    },
+    {
+      "name": "build-tam",
+      "description": "Build a market list of accounts and contacts.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/build-tam",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "clay-to-deepline",
+      "description": "Convert a Clay table workflow into Deepline scripts.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/clay-to-deepline",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-analytics",
+      "description": "Answer business questions from connected data.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-analytics",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-engine",
+      "description": "Build and operate Deepline workflows.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-engine",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-feedback",
+      "description": "Report Deepline feedback with relevant evidence.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-feedback",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-gtm",
+      "description": "Source, enrich and qualify companies and people.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-gtm",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-plays",
+      "description": "Build repeatable sales and marketing workflows.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-plays",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-quickstart",
+      "description": "Run a short Deepline demonstration.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-quickstart",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "deepline-scoring",
+      "description": "Find useful signals and score accounts.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/deepline-scoring",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "find-qualified-titles",
+      "description": "Find role-holders at known companies.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/find-qualified-titles",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "linkedin-url-lookup",
+      "description": "Resolve LinkedIn profiles with identity checks.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/linkedin-url-lookup",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "niche-signal-discovery",
+      "description": "Older alias for Deepline scoring.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/niche-signal-discovery",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "portfolio-prospecting",
+      "description": "Find companies backed by an investor and relevant contacts.",
+      "publisher": "Deepline",
+      "url": "https://github.com/getaero-io/gtm-eng-skills/tree/main/skills/portfolio-prospecting",
+      "license": "MIT (upstream copyright)",
+      "license_url": "https://github.com/getaero-io/gtm-eng-skills/blob/main/LICENSE"
+    },
+    {
+      "name": "graphify",
+      "description": "Build and query a map of relationships across code and documents.",
+      "publisher": "Graphify Labs",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "license": "Apache-2.0; earlier MIT portions retain their notices",
+      "license_url": "https://github.com/Graphify-Labs/graphify/blob/v8/LICENSE"
+    },
+    {
+      "name": "c11",
+      "description": "Operate c11 terminal workspaces and agent surfaces.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/c11",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "c11-browser",
+      "description": "Use the browser built into c11.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/c11-browser",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "c11-computer-use",
+      "description": "Verify c11 through its real macOS interface.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/c11-computer-use",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "c11-debug-windows",
+      "description": "Work with c11 development debug windows.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/c11-debug-windows",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "c11-markdown",
+      "description": "Open live Markdown views in c11.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/c11-markdown",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "chord-architect",
+      "description": "Turn several candidate designs into build contracts.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/chord-architect",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "chord-initiation",
+      "description": "Explore several answers to the same product problem.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/chord-initiation",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "chord-prototype",
+      "description": "Create and compare candidate prototypes.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/chord-prototype",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "distribution",
+      "description": "Plan distribution channels for a shipped product.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/distribution",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "lattice-orchestrator",
+      "description": "Run builds from completed specifications using Lattice.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/lattice-orchestrator",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "resonance",
+      "description": "Plan measurable marketing experiments.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/resonance",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "sounding",
+      "description": "Explore ideas using market evidence.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/sounding",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "tone-architect",
+      "description": "Turn a validated prototype into a build contract.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/tone-architect",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "tone-initiation",
+      "description": "Define the problem, economics and user stories for a new project.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/tone-initiation",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "tone-prototype",
+      "description": "Explore and refine a usable prototype.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/tone-prototype",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    },
+    {
+      "name": "venture-partner",
+      "description": "Pressure-test a business idea against evidence.",
+      "publisher": "Stage 11 / c11",
+      "url": "https://github.com/Stage-11-Agentics/c11/tree/main/skills/venture-partner",
+      "license": "AGPL-3.0-or-later",
+      "license_url": "https://github.com/Stage-11-Agentics/c11/blob/main/LICENSE"
+    }
+  ],
+  "files": [
+    ".github/workflows/check-collection.yml",
+    "CATALOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY.md",
+    "guides/model-and-cost-routing.md",
+    "guides/operating-principles.md",
+    "guides/social-profile-promotion.md",
+    "guides/social-publishing.md",
+    "guides/social-video-upload-limits.md",
+    "guides/task-brief.md",
+    "guides/verify-the-result.md",
+    "scripts/check_collection.py",
+    "skills/context-audit/SKILL.md",
+    "skills/design-audit/LICENSE",
+    "skills/design-audit/SKILL.md",
+    "skills/design-audit/rules-snapshot-2026-07-13.md",
+    "skills/git-branching-quiz/SKILL.md",
+    "skills/loop-audit/SKILL.md",
+    "skills/loop-run/SKILL.md",
+    "skills/model-effort/SKILL.md",
+    "skills/model-effort/references/selection-evidence.md",
+    "skills/presentation-rules/SKILL.md",
+    "skills/report-rules/SKILL.md",
+    "skills/social-post/SKILL.md",
+    "skills/systematic-debugging/LICENSE",
+    "skills/systematic-debugging/SKILL.md",
+    "skills/systematic-debugging/references/root-cause-tracing.md",
+    "skills/task-observer/LICENSE",
+    "skills/task-observer/SKILL.md",
+    "skills/task-observer/references/publishing-a-skill.md",
+    "skills/task-observer/references/weekly-review.md",
+    "skills/worktree-triage/SKILL.md"
+  ]
+}
